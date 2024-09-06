@@ -1,0 +1,37 @@
+package tests;
+
+import java.io.IOException;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+// Import TestNG annotation
+import base.basePage;
+import pageObject.HomePage;
+
+public class OrderCompleteTest extends basePage {
+
+    public OrderCompleteTest() throws IOException {
+        super();
+    }
+
+    @BeforeTest
+    public void setup() throws IOException {
+        // Setup code here
+    	driver = getDriver();
+    	driver.get(getUrl());	
+    }
+    
+    @AfterTest
+    public void tearDown() {
+    	driver.close();
+    	driver =null;
+    }
+    
+    @Test
+    public void endToEndTest() {
+    	HomePage home = new HomePage(driver);
+    	home.getTestStoreLink().click();
+    }
+}

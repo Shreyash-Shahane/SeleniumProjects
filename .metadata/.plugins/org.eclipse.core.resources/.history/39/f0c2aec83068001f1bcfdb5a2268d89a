@@ -1,0 +1,12 @@
+package pageObject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class ShoopingCart {
+	public WebDriver driver;
+	By havePromo = By.xpath("//a[normalize-space()='Have a promo code?']");
+	By promoTextbox = By.xpath("//input[@placeholder='Promo code']");
+	By promoAddBtn = By.xpath("//span[normalize-space()='Add']");
+	By proceedToCheckoutBtn = By.xpath("//a[normalize-space()='Proceed to checkout']");
+}

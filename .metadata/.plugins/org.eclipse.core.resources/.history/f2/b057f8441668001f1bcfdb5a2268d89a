@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module eCommerceTesting {
+	requires org.seleniumhq.selenium.chrome_driver;
+}

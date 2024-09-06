@@ -1,0 +1,13 @@
+package pageObject;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class ShopProductPage {
+	public WebDriver driver ;
+	
+	By sizeOption = By.xpath("//select[@id='group_1']");
+	By quantityIncrease = By.xpath("//i[@class='material-icons touchspin-up']");
+	By quantityDecrease = By.xpath("//button[@class='btn btn-touchspin js-touchspin bootstrap-touchspin-down']");
+	
+}

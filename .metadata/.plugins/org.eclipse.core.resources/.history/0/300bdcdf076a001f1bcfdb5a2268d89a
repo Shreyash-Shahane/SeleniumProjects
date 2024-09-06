@@ -1,0 +1,18 @@
+package tests;
+
+import java.io.IOException;
+
+import base.basePage;
+
+public class OrderCompleteTest extends basePage{
+
+	public OrderCompleteTest() throws IOException {
+		super();
+	}
+	
+	@BeforeTest
+	public void setup() {
+
+	}
+	
+}

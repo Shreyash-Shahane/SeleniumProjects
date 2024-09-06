@@ -1,0 +1,28 @@
+package tests;
+
+import java.io.IOException;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+
+import base.basePage;
+
+public class AddRemoveItemBasketTest extends basePage{
+
+	public AddRemoveItemBasketTest() throws IOException {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+    @BeforeTest
+    public void setup() throws IOException {
+        // Setup code here
+    	driver = getDriver();
+    	driver.get(getUrl());	
+    }
+    
+    @AfterTest
+    public void tearDown() {
+    	driver.close();
+    	driver =null;
+    }
+}

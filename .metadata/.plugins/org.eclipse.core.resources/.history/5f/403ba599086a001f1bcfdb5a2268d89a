@@ -1,0 +1,20 @@
+package tests;
+
+import java.io.IOException;
+
+import org.testng.annotations.BeforeTest;
+
+// Import TestNG annotation
+import base.basePage;
+
+public class OrderCompleteTest extends basePage {
+
+    public OrderCompleteTest() throws IOException {
+        super();
+    }
+
+    @BeforeTest
+    public void setup() {
+        // Setup code here
+    }
+}

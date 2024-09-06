@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="pageObject.ShopContentPanel"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
+    <fullyQualifiedTypeName name="pageObject.ShopingCart"/>
+    <fullyQualifiedTypeName name="base.basePage"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="pageObject.HomePage"/>
+    <fullyQualifiedTypeName name="pageObject.ShopHomePage"/>
+    <fullyQualifiedTypeName name="pageObject.ShopProductPage"/>
+</qualifiedTypeNameHistroy>
